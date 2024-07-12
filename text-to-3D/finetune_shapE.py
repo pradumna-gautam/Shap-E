@@ -1,5 +1,4 @@
 # ==============================================================================
-# Copyright (c) 2023 Tiange Luo, tiange.cs@gmail.com
 # Based on https://github.com/openai/shap-e
 #
 # This code is licensed under the MIT License.
