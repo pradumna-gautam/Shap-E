@@ -5,12 +5,12 @@ This folder contains codes for Text-to-3D experiments in terms of finetuning and
 
 ```
 ### Finetune Shap-E
-```
+
 # first git clone https://github.com/openai/shap-e, and install with pip install -e .
 # move finetune_shapE.py and corresponding files in example_material to shap-e directory
 # need to modify --latent_code_path to the directory you store the shap-E latent code .pt files (download from https://huggingface.co/datasets/tiange/Cap3D/tree/main/ShapELatentCode_zips)
 # you may also change the caption and train/val set file path in line #48~49, #68~69
-
+```
 python finetune_shapE.py --gpus 4 --batch_size 16 --save_name 'shapE_bs16_lr1e5' --latent_code_path './Cap3D_latentcodes'
 ```
 
